@@ -1,0 +1,60 @@
+/*
+Estilos da pagina index.html
+*/
+
+.center{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: blue;
+}
+
+.menu li a:hover {
+    color: cornflowerblue;
+
+}
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wd-500{
+    width: 500px;
+    height: 500px;
+}
+
+.tm-social{
+    width: 30px;
+    height: 30px;
+}
+.justify{
+    text-align: justify;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+/*
+Estilos da pagina contato.html
+*/
+
+.ml-50{
+    margin-left: 50px;
+}
