@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Meu Perfil</title>
+<!--
+<style>
+    #p1{ font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .p2{
+        font-style:oblique;
+    }
+</style>
+-->
 </head>
 <body>
+    <!--
     <h1>Olá mundo</h1>
-   <ul>
+-->
+   <ul class="menu">
 <li>
 <a href = "index.html">Home</a>
 </li>
@@ -18,14 +31,36 @@
     <a href = "contato.html">Contato</a>
 </li>
    </ul>
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At earum tenetur molestiae corrupti, 
-        aliquam laboriosam. Aliquid accusamus delectus corrupti fugiat quidem! Autem ipsum necessitatibus 
-        temporibus perspiciatis neque consectetur dolorem voluptatem.
-    </p>
+   <div class="container">
+    <div>
+        <img class="br-50 wd-500 p-30" src="assets/bobesponja.jpg" alt="felicidade" />
+       </div>
+       <div class="p-30 ">
+        <p class="center justify" style="font-size:18px;">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At earum tenetur molestiae corrupti, 
+            aliquam laboriosam. Aliquid accusamus delectus corru
+            pti fugiat quidem! Autem ipsum necessitatibus 
+            temporibus perspiciatis neque consectetur dolorem voluptatem.
+        </p>
+        <p id="p1" class="p-30 justify">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At earum tenetur molestiae corrupti, 
+            aliquam laboriosam. Aliquid accusamus delectus corru
+            pti fugiat quidem! Autem ipsum necessitatibus 
+            temporibus perspiciatis neque consectetur dolorem voluptatem.
+        </p>
+        <p class="p2 justify">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At earum tenetur molestiae corrupti, 
+            aliquam laboriosam. Aliquid accusamus delectus corru
+            pti fugiat quidem! Autem ipsum necessitatibus 
+            temporibus perspiciatis neque consectetur dolorem voluptatem.
+        </p>
+       </div>
+      
+   
+</div>
     
-    <img src="assets/bobesponja.jpg" alt="felicidade"/>
-    <h2>Meu video predileto</h2>
+    <h2 class="center">Meu video predileto</h2>
+   <div class="container mb-50">
     <iframe 
     width="560" 
     height="315" 
@@ -33,6 +68,16 @@
      frameborder="0" 
      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
      allowfullscreen></iframe>
-
+    </div>
+    <footer>
+        <div class="container">
+         <a href="https://www.facebook.com/tatiane.t.ant/">   <img class="tm-social p-30" src="assets/logotipo-do-aplicativo-do-facebook.png" alt="Facebook"/></a> 
+         <a href="https://www.linkedin.com/in/tati-antunes/">  <img class="tm-social p-30" src= "assets/logotipo-do-linkedin.png" alt= "Linkedin"/></a>
+       
+        <p class="center">
+            Todos os direitos reservados para Tatiane Tissoni &copy;
+        </p>
+    </div>
+    </footer>
 </body>
 </html>
